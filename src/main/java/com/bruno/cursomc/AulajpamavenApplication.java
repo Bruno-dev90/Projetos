@@ -16,7 +16,7 @@ import com.bruno.cursomc.domain.Produto;
 import com.bruno.cursomc.enus.TipoCliente;
 import com.bruno.cursomc.repositories.CategoriaRepository;
 import com.bruno.cursomc.repositories.CidadeRepository;
-import com.bruno.cursomc.repositories.ClienteRepositoty;
+import com.bruno.cursomc.repositories.ClienteRepository;
 import com.bruno.cursomc.repositories.EnderecoRepository;
 import com.bruno.cursomc.repositories.EstadoRepository;
 import com.bruno.cursomc.repositories.ProdutoRepository;
@@ -37,7 +37,7 @@ public class AulajpamavenApplication implements CommandLineRunner{
 	private CidadeRepository cidadeRepository;
 	
 	@Autowired
-	private ClienteRepositoty clienteRepository;
+	private ClienteRepository clienteRepository;
 	
 	@Autowired
 	private EnderecoRepository enderecoRepository;
