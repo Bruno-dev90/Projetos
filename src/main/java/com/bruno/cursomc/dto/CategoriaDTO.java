@@ -40,4 +40,6 @@ public class CategoriaDTO implements Serializable{
 		id = obj.getId();
 		nome = obj.getNome();
 	}
+	
+
 }
