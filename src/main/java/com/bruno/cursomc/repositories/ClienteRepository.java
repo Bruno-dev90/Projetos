@@ -6,4 +6,6 @@ import com.bruno.cursomc.domain.Cliente;
 
 public interface ClienteRepository extends JpaRepository<Cliente, Integer> {
 
+	
+	Cliente findByEmail(String email);
 }

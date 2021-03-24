@@ -26,8 +26,6 @@ import com.bruno.cursomc.services.exception.DataIntegrityException;
 @Service
 public class ClienteServices {
 	
-
-	
 	@Autowired
 	 private ClienteRepository repo;
 	
